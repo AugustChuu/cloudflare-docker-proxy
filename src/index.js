@@ -11,9 +11,6 @@ const routes = {
   "quay.sanctwy.com": "https://quay.io",
   "gcr.sanctwy.com": "https://gcr.io",
   "ghcr.sanctwy.com": "https://ghcr.io"
-
-  // staging
-  "docker-staging.sanctwy.com": dockerHub,
 };
 
 function routeByHosts(host) {
